@@ -1,0 +1,78 @@
+.intro {
+    &.container {
+        height: 30rem;
+        padding: 0 30px;
+    }
+
+    &.left-side {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+    }
+
+    &.content-1, .content-2, .content-3 {
+        &.title {
+            margin: 0 0 60px 0;
+        }
+
+        &.title h1.ant-typography {
+            color: #029FE4;
+            font-size: 36px;
+        }
+
+        &.content h1.ant-typography {
+            font-size: 24px;
+            color: #000;
+        }
+
+        &.content .ant-typography {
+            font-size: 16px;
+            color: #777777;
+        }
+    }
+
+    &.right-side {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    &.text-page {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    &.muted {
+        color: #C0C0C0;
+    }
+
+    &.total-page {
+        font-size: 24px;
+    }
+
+    &.prev-button, .next-button {
+        border: none;
+        padding: 15px 30px;
+        text-align: center;
+        font-size: 24px;
+        color: #B6B6B6;
+        background-color: #F1F1F1;
+        cursor: pointer;
+    }
+
+    &.prev-button:hover, .next-button:hover {
+        transition: 0.7s;
+        background-color: #1BA0E1;
+        color: #fff;
+    }
+
+    &.prev-button:focus, .next-button:focus {
+        background-color: #1BA0E1;
+        color: #fff;
+    }
+}

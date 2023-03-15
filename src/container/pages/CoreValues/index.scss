@@ -1,0 +1,82 @@
+.cova {
+    &.container {
+        background-color: #F8F8F8;
+        height: 50rem;
+    }
+
+    &.heading {
+        height: 30rem;
+    }
+
+    &.left-side {
+        width: 50%;
+        height: 100%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &.background-img {
+        width: 80%;
+        height: 100%;
+        background: url("../../../assets/img/core-illustration.svg") center / 100% auto no-repeat;
+        transform: scaleX(-1);
+    }
+    
+    &.right-side {
+        width: 50%;
+        height: 100%;
+        // float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &.heading-content {
+        width: 600px;
+    }
+
+    &.heading-content h1.ant-typography {
+        text-align: center;
+        color: #029FE4;
+        font-size: 36px;
+        margin: 0 0 60px 0;
+    }
+
+    &.heading-content .ant-typography {
+        color: #777777;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0 0 60px 0;
+    }
+
+    &.content {
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 30px;
+    }
+
+    &.content-1, .content-2, .content-3 {
+        width: 33%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    &.content-1-body, .content-2-body, .content-3-body {
+        h1.ant-typography {
+            text-align: center;
+            font-size: 24px;
+            margin: 0 0 60px 0;
+            color: #000;
+        }
+
+        .ant-typography {
+            color: #777777;
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+}
